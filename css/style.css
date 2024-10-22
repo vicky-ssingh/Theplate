@@ -8475,7 +8475,6 @@ margin: 2px 0 0 0;
 }
 
 
-
 /* copyright */
 .copyright a,
 .copyright a:hover,
@@ -8483,4 +8482,25 @@ margin: 2px 0 0 0;
 .copyright a:active,
 .copyright a:focus {
 color: #5f5f5f;
+}
+
+
+/* END */
+/* Target Retina displays for higher resolution logos */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+    .logo img {
+        content: url('img/logo.png'); /* Replace with a higher-resolution logo */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo img {
+      width: 100px; /* Set the width to a reasonable size for mobile */
+      height: auto; /* Maintain aspect ratio */
+  }
+
+  /* Adjust the logo margins for mobile */
+  .logo {
+      margin: 3px 0 0 -10px; /* Existing margin, you can adjust this */
+  }
 }
