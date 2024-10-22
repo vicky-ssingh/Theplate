@@ -8489,7 +8489,7 @@ color: #5f5f5f;
 /* Target Retina displays for higher resolution logos */
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
     .logo img {
-        content: url('img/logo.png'); /* Replace with a higher-resolution logo */
+        content: url('img/Whitelogo.svg'); /* Replace with a higher-resolution logo */
     }
 }
 
